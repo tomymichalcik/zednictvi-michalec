@@ -131,8 +131,204 @@
         </div>
     </section>
 
-    <section id="sluzby" class="min-h-[400px] bg-white p-12 border-b scroll-mt-target">
-        <div class="mx-auto max-w-7xl"><h2 class="text-2xl font-bold">Sekce 2: Služby</h2></div>
+    <!-- LIŠTA DŮVĚRY (Trust Bar pod Hero) -->
+    <div class="bg-slate-900 border-t border-slate-800 text-white py-5">
+        <div class="mx-auto max-w-7xl px-4 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
+                
+                <!-- Položka 1 -->
+                <div class="flex items-center justify-center gap-2.5">
+                    <svg class="w-5 h-5 text-amber-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                    <span class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-200">Poctivé řemeslo</span>
+                </div>
+
+                <!-- Položka 2 -->
+                <div class="flex items-center justify-center gap-2.5">
+                    <svg class="w-5 h-5 text-amber-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    <span class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-200">Místní firma</span>
+                </div>
+
+                <!-- Položka 3 -->
+                <div class="flex items-center justify-center gap-2.5">
+                    <svg class="w-5 h-5 text-amber-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                    </svg>
+                    <span class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-200">Čistá práce a úklid</span>
+                </div>
+
+                <!-- Položka 4 -->
+                <div class="flex items-center justify-center gap-2.5">
+                    <svg class="w-5 h-5 text-amber-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+                    </svg>
+                    <span class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-200">Férová cena</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <!-- SEKCE 2: SLUŽBY -->
+    <section id="sluzby" class="bg-white py-20 lg:py-28 scroll-mt-target border-b border-slate-100">
+        <div class="mx-auto max-w-7xl px-4 lg:px-8">
+            
+            <!-- Hlavička sekce -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-amber-600">Co děláme</span>
+                <h2 class="mt-2 text-3xl sm:text-4xl font-black tracking-tight text-slate-900">
+                    Zednické práce, na které se spolehnete
+                </h2>
+                <p class="mt-4 text-base sm:text-lg text-slate-600">
+                    Od zdění a strojních omítek přes kompletní rekonstrukce až po dokončovací práce v Uherském Brodě a okolí – postaráme se o celý průběh vaší zakázky.
+                </p>
+            </div>
+
+                        <!-- Grid 8 karet služeb s řemeslnickými ikonami -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Karta 1: Zednická lžíce -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M14 4l6 6-8 8-6-6 8-8z"/>
+                            <path d="M9 15l-4 4"/>
+                            <path d="M3 21l2-2"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Zednické práce</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Kompletní zednické práce od základů po dokončení – přesně, čistě a poctivě.
+                    </p>
+                </div>
+
+                <!-- Karta 2: Rekonstrukce bytů a domů (Dům) -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M3 10.5L12 3l9 7.5"/>
+                            <path d="M5 9.5V19a2 2 0 002 2h10a2 2 0 002-2V9.5"/>
+                            <path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Rekonstrukce bytů a domů</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Celkové i dílčí rekonstrukce interiérů s ohledem na váš rozpočet a dohodnutý termín.
+                    </p>
+                </div>
+
+                <!-- Karta 3: Rekonstrukce koupelen (Sprcha a kapky) -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M4 12h16a1 1 0 011 1v3a4 4 0 01-4 4H7a4 4 0 01-4-4v-3a1 1 0 011-1z"/>
+                            <path d="M6 12V5a2 2 0 012-2h3v2.25"/>
+                            <path d="M4 21l1-1.5M20 21l-1-1.5"/>
+                            <circle cx="11" cy="7" r="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Rekonstrukce koupelen</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Kompletní přestavba koupelen a bytových jader včetně obkladů, dlažby a rozvodů.
+                    </p>
+                </div>
+
+                <!-- Karta 4: Omítky a štuky (Malířský / fasádní váleček) -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <rect x="3" y="3" width="14" height="6" rx="2"/>
+                            <path d="M17 6h2a2 2 0 012 2v2a2 2 0 01-2 2h-7a2 2 0 00-2 2v2"/>
+                            <rect x="8" y="16" width="4" height="5" rx="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Strojní omítky a štuky</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Vnitřní i vnější strojní omítky, štukové úpravy a sádrové stěrky s dokonale rovným povrchem.
+                    </p>
+                </div>
+
+                <!-- Karta 5: Zdění příček a stěn (Cihlová vazba) -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <rect x="3" y="4" width="18" height="16" rx="2"/>
+                            <path d="M3 9.5h18"/>
+                            <path d="M3 14.5h18"/>
+                            <path d="M9 4v5.5"/>
+                            <path d="M15 9.5v5"/>
+                            <path d="M9 14.5V20"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Zdění příček a stěn</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Zdění příček, nosných i obvodových stěn z cihel, tvárnic i pórobetonu (Ytong, Porotherm).
+                    </p>
+                </div>
+
+                <!-- Karta 6: Obklady a dlažby (Diagonální / křížová dlažba) -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M12 3v18"/>
+                            <path d="M3 12h18"/>
+                            <path d="M3 3l18 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Obklady a dlažby</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Precizní pokládka obkladů a velkoformátových dlažeb v koupelnách, kuchyních i na terasách.
+                    </p>
+                </div>
+
+                <!-- Karta 7: Betonářské práce (Zednické hladítko / stěrka) -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M3 17h18v3H3z"/>
+                            <path d="M8 17v-4a2 2 0 012-2h4a2 2 0 012 2v4"/>
+                            <path d="M6 7h12"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Betonářské práce</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Betonové základy, základové desky, podlahy, potěry a menší betonové konstrukce.
+                    </p>
+                </div>
+
+                <!-- Karta 8: Zateplení a fasády -->
+                <div class="group rounded-2xl bg-slate-50 p-7 border border-slate-100 transition-all duration-300 hover:bg-white hover:shadow-xl hover:shadow-slate-200/60 hover:-translate-y-1">
+                    <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100/80 text-amber-600 transition-colors group-hover:bg-amber-600 group-hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 12l10 5 10-5"/>
+                            <path d="M2 17l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Zateplení a fasády</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-slate-600">
+                        Zateplování rodinných domů a fasádní systémy včetně finálních silikonových a akrylátových omítek.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Spodní CTA tlačítko -->
+            <div class="mt-14 text-center">
+                <a href="#kontakt" class="group inline-flex items-center justify-center gap-2 rounded-xl bg-amber-600 px-7 py-3.5 text-sm sm:text-base font-bold text-white shadow-lg transition-all hover:bg-amber-500 hover:shadow-amber-600/40 hover:-translate-y-0.5">
+                    <span>Prohlédnout možnosti · Poptávka</span>
+                    <svg class="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
     </section>
 
     <section id="proc-my" class="min-h-[400px] bg-slate-100 p-12 border-b scroll-mt-target">
@@ -147,7 +343,7 @@
         <div class="mx-auto max-w-7xl"><h2 class="text-2xl font-bold">Sekce 5: Reference</h2></div>
     </section>
 
-    <footer id="kontakt" class="min-h-[300px] bg-slate-900 text-white p-12 scroll-mt-target">
+    <footer id="kontakt" class="min-h-[300px] bg-slate-900 text-white p-12 scroll-mt-target">S
         <div class="mx-auto max-w-7xl"><h2 class="text-2xl font-bold">Patička & Kontakt</h2></div>
     </footer>
 
